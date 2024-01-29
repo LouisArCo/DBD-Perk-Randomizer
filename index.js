@@ -2,7 +2,7 @@ const perks = []
 const perkImages = []
 const perkImagesNew = []
 
-fetch('Killer Perks.html')
+fetch('https://raw.githubusercontent.com/LouisArCo/DBD-Perk-Randomizer/main/Killer%20Perks.html')
 .then(response => response.text())
 .then(data => {
     const parser = new DOMParser();
